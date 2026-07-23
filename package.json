@@ -1,1 +1,14 @@
-
+{
+  "name": "whatsapp-business-bot",
+  "version": "1.0.0",
+  "description": "Hebrew business advisor bot for WhatsApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2"
+  }
+}
